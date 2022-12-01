@@ -23,15 +23,15 @@ describe('iterators', () => {
         });
     });
 
-    // describe('take', () => {
-    //     it('is a function', () => {
-    //         expect(typeof take).toBe('function');
-    //     });
-    //
-    //     it('returns the specified number of elements', () => {
-    //         expect([...take(3)([1, 2, 3, 4, 5, 6, 7])]).toStrictEqual([1, 2, 3]);
-    //     });
-    // });
+    describe('take', () => {
+        it('is a function', () => {
+            expect(typeof take).toBe('function');
+        });
+
+        it('returns the specified number of elements', () => {
+            expect([...take(3)([1, 2, 3, 4, 5, 6, 7])]).toStrictEqual([1, 2, 3]);
+        });
+    });
 
     describe('sum', () => {
         it('is a function', () => {
