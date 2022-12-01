@@ -1,0 +1,7 @@
+{
+    "name": "@hrwg/day-xx",
+    "private": true,
+    "scripts": {
+        "start": "vite-node main.ts"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "name": "@hrwg/advent-of-code",
+    "private": true,
+    "description": "Advent of code",
+    "version": "0.0.0",
+    "scripts": {
+        "start": "nx run-many --target start",
+        "test": "nx run-many --target test",
+        "build": "nx run-many --target build",
+        "lint": "eslint packages/",
+        "lint:fix": "eslint packages/ --fix",
+        "check": "pnpm lint && pnpm test",
+        "clean": "nx run-many --target clean",
+        "clean:node": "nx run-many --target clean:node && rimraf node_modules/",
+        "prepare": "husky install",
+        "postinstall": "pnpm build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rherwig/advent-of-code.git"
+    },
+    "keywords": [
+        "hrwg",
+        "advent",
+        "challenge"
+    ],
+    "author": {
+        "name": "Rico Herwig",
+        "email": "rico@hrwg.de"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rherwig/advent-of-code/issues"
+    },
+    "homepage": "https://github.com/rherwig/advent-of-code#readme",
+    "dependencies": {
+        "dotenv": "^16.0.1"
+    },
+    "devDependencies": {
+        "@hrwg/eslint-config": "^1.2.0",
+        "@types/node": "^18.11.10",
+        "eslint": "^8.28.0",
+        "husky": "^8.0.2",
+        "nx": "^15.2.4",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.9.3",
+        "vite": "^3.2.4",
+        "vite-node": "^0.25.3",
+        "vitest": "^0.25.3"
+    }
+}

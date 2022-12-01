@@ -1,0 +1,35 @@
+{
+    "extends": "nx/presets/npm.json",
+    "npmScope": "hrwg",
+    "workspaceLayout": {
+        "appsDir": "apps",
+        "libsDir": "packages"
+    },
+    "namedInputs": {
+        "default": [
+            "{projectRoot}/**/*",
+            "!{projectRoot}/**/*.test.{js,ts}",
+            "sharedGlobals"
+        ],
+        "production": [
+            "default"
+        ],
+        "sharedGlobals": []
+    },
+    "targetDefaults": {
+        "build": {
+            "dependsOn": [
+                "^build"
+            ],
+            "inputs": [
+                "production",
+                "^production"
+            ],
+            "outputs": [
+                "{projectRoot}/dist",
+                "{projectRoot}/lib"
+            ]
+        }
+    },
+    "defaultBase": "main"
+}

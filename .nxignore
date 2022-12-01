@@ -1,0 +1,3 @@
+# Generated Service Worker
+apps/website/public/**/*.js
+apps/website

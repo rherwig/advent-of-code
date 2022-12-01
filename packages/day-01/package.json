@@ -1,0 +1,10 @@
+{
+    "name": "@hrwg/day-01",
+    "private": true,
+    "scripts": {
+        "start": "vite-node main.ts"
+    },
+    "dependencies": {
+        "@hrwg/utils": "workspace:*"
+    }
+}

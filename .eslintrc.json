@@ -1,0 +1,8 @@
+{
+    "extends": [
+        "@hrwg/eslint-config/typescript"
+    ],
+    "rules": {
+        "no-restricted-syntax": "off"
+    }
+}

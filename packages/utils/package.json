@@ -1,0 +1,11 @@
+{
+    "name": "@hrwg/utils",
+    "private": true,
+    "type": "module",
+    "main": "lib/main.js",
+    "module": "main.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest run"
+    }
+}
