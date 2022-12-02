@@ -12,6 +12,7 @@ The individual daily tasks are organized inside the `packages/` directory.
 
 * [Day 01 - Calorie Counting](packages/day-01/README.md) (TypeScript)  
 * [Day 02 - Rock Paper Scissors](packages/day-02/README.md) (Haskell)
+* [Day 03 - ???](packages/day-03/README.md) (Bash)
 
 ## License
 MIT
