@@ -2,25 +2,16 @@
 This repository contains the progress and solutions for the Advent of Code 2022.
 The individual daily tasks are organized inside the `packages/` directory.
 
-## Running the Project
-Follow these steps, to run the project:
+>
+> **Challenge**
+> 
+> As an added challenge, each task will be solved in a **different programming language**.
+> No language must be used twice. Ideally, languages are chosen in which the developer has little to no experience.
 
-```bash
-pnpm install
-pnpm start
-```
+## Table of Contents
 
-## Building the Project
-Execute the following command to build the project:
-```bash
-pnpm build
-```
-
-## Testing
-Execute unit tests using the following command:
-```bash
-pnpm test
-```
+* [Day 01 - Calorie Counting](packages/day-01/README.md) (TypeScript)  
+* [Day 02 - Rock Paper Scissors](packages/day-02/README.md) (Haskell)
 
 ## License
 MIT
