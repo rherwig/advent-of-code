@@ -29,6 +29,7 @@ describe('iterators', () => {
         });
 
         it('returns the specified number of elements', () => {
+            // @ts-ignore
             expect([...take(3)([1, 2, 3, 4, 5, 6, 7])]).toStrictEqual([1, 2, 3]);
         });
     });
