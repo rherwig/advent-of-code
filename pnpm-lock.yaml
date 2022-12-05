@@ -35,11 +35,11 @@ importers:
     dependencies:
       '@hrwg/utils': link:../utils
 
-  packages/day-02:
-    specifiers: {}
-
-  packages/day-xx:
-    specifiers: {}
+  packages/day-03:
+    specifiers:
+      '@hrwg/utils': workspace:*
+    dependencies:
+      '@hrwg/utils': link:../utils
 
   packages/utils:
     specifiers: {}
