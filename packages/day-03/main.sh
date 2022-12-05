@@ -31,7 +31,7 @@ function search_bags() {
 }
 
 # shellcheck disable=SC2013
-for item in $(cat ./resources/input.txt); do
+for item in $(cat ./resources/sample2.txt); do
     value=$(search_bags "$item");
     totalPoints=$((totalPoints + value));
 done
